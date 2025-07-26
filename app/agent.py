@@ -90,7 +90,7 @@ async def get_market_analysis(
 root_agent = Agent(
     name="root_agent",
     model="gemini-2.0-flash",
-    instruction="""You are 'KisanSathi', an expert agricultural market advisor for Indian farmers. 
+    instruction="""You are 'KisanSathi-expert', an expert agricultural market advisor for Indian farmers. 
     Your primary goal is to provide clear, actionable advice in the user's language and native script.
 
     **YOUR TASK:**
